@@ -1,4 +1,5 @@
 argon2-cffi==20.1.0
+astroid==2.4.2
 attrs==19.3.0
 backcall==0.2.0
 bleach==3.1.5
@@ -15,6 +16,7 @@ ipykernel==5.3.4
 ipython==7.16.1
 ipython-genutils==0.2.0
 ipywidgets==7.5.1
+isort==4.3.21
 itsdangerous==1.1.0
 jedi==0.17.2
 Jinja2==2.11.2
@@ -24,7 +26,9 @@ jupyter==1.0.0
 jupyter-client==6.1.6
 jupyter-console==6.1.0
 jupyter-core==4.6.3
+lazy-object-proxy==1.4.3
 MarkupSafe==1.1.1
+mccabe==0.6.1
 mistune==0.8.4
 nbconvert==5.6.1
 nbformat==5.0.7
@@ -39,6 +43,7 @@ prometheus-client==0.8.0
 prompt-toolkit==3.0.6
 pycparser==2.20
 Pygments==2.6.1
+pylint==2.5.3
 pyparsing==2.4.7
 pyrsistent==0.16.0
 python-dateutil==2.8.1
@@ -55,11 +60,14 @@ six==1.15.0
 terminado==0.8.3
 testpath==0.4.4
 threadpoolctl==2.1.0
+toml==0.10.1
 tornado==6.0.4
 traitlets==4.3.3
+typed-ast==1.4.1
 wcwidth==0.2.5
 webencodings==0.5.1
 Werkzeug==1.0.1
 widgetsnbextension==3.5.1
 wincertstore==0.2
+wrapt==1.12.1
 zipp==3.1.0
