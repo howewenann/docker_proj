@@ -18,6 +18,11 @@ class_names = ['Iris-setosa', 'Iris-versicolor', 'Iris-virginica']
 # build app
 app = Flask(__name__)
 
+# To test main page
+@app.route("/")
+def hello():
+    return "Hello, World!"
+
 # Define App routes
 @app.route('/predict', methods=['POST'])
 
@@ -63,4 +68,4 @@ def predict_proba():
 
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=8000)
+    app.run(host='0.0.0.0')
