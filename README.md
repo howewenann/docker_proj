@@ -15,15 +15,15 @@ Docker Commands
 - docker image ls
 
 ##### Stop
-docker stop iris-app
-docker stop $(docker ps -aq)
+- docker stop iris-app
+- docker stop $(docker ps -aq)
 
 ##### Remove
-docker rm $(docker ps -aq)
-docker rmi $(docker images -q)
+- docker rm $(docker ps -aq)
+- docker rmi $(docker images -q)
 
 ##### Export image
-docker save -o C:/Users/neutr/Projects/docker_proj/iris-image.tar iris-image
+- docker save -o C:/Users/neutr/Projects/docker_proj/iris-image.tar iris-image
 
 Project Organization
 ------------
