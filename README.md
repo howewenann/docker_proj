@@ -3,6 +3,28 @@ docker_proj
 
 A Repo to test deploying a model on docker
 
+Docker Commands
+==============================
+##### Build and run
+- docker build -t iris-image .
+- docker run -d -p 5000:5000 --name iris-app iris-image
+
+##### View
+- docker ps
+- docker ps -a
+- docker image ls
+
+##### Stop
+docker stop iris-app
+docker stop $(docker ps -aq)
+
+##### Remove
+docker rm $(docker ps -aq)
+docker rmi $(docker images -q)
+
+##### Export image
+docker save -o C:/Users/neutr/Projects/docker_proj/iris-image.tar iris-image
+
 Project Organization
 ------------
 
